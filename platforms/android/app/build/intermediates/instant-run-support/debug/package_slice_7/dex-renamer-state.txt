@@ -1,0 +1,4 @@
+#Sat Feb 16 20:32:26 ICT 2019
+base.0=D\:\\Studying\\A_SPRING2019-PRM391\\Demo\\FirstPhoneGapDemo\\FirstPhoneGap\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+path.0=classes.dex
+renamed.0=classes.dex
