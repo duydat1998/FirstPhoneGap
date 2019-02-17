@@ -18,6 +18,9 @@
     },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "sample.phonegap"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "sample.phonegap"
     }
   },
   "dependent_plugins": {}
