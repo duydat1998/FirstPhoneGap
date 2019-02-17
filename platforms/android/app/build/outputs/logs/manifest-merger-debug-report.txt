@@ -1,13 +1,25 @@
 -- Merging decision tree log ---
+provider#org.apache.cordova.camera.FileProvider
+INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:27:9-29:20
+	android:grantUriPermissions
+		ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:27:92-126
+	android:authorities
+		INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:27:19-66
+	android:exported
+		ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:27:67-91
+	android:name
+		ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:27:127-180
 manifest
-ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\9297da7ddf5b7f2ec791ff66c6f1f2a3\AndroidManifest.xml:17:1-27:12
 MERGED from [:CordovaLib] D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
-INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:2:102-127
 		INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml
@@ -99,11 +111,13 @@ ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\
 	android:name
 		ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:18:22-72
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:19:5-74
+ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:19:5-75
 	android:name
 		ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:19:22-72
 application
-ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:20:5-27:19
+ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:20:5-30:19
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\9297da7ddf5b7f2ec791ff66c6f1f2a3\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\9297da7ddf5b7f2ec791ff66c6f1f2a3\AndroidManifest.xml:25:5-20
 	android:supportsRtl
 		ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:20:114-140
 	android:label
@@ -139,14 +153,24 @@ ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\
 	android:name
 		ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:24:27-74
 uses-sdk
-ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:28:5-74
-INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:28:5-74
+ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:31:5-74
+INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:31:5-74
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\9297da7ddf5b7f2ec791ff66c6f1f2a3\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\9297da7ddf5b7f2ec791ff66c6f1f2a3\AndroidManifest.xml:21:5-23:54
 MERGED from [:CordovaLib] D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
 MERGED from [:CordovaLib] D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
-INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:28:5-74
+INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:31:5-74
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.1.1] C:\Users\Nguyen Duy Dat\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\9297da7ddf5b7f2ec791ff66c6f1f2a3\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:28:42-71
+		ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:31:42-71
 	android:minSdkVersion
-		ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:28:15-41
+		ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:31:15-41
 		INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:28:13-123
+	android:resource
+		ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:28:75-120
+	android:name
+		ADDED from D:\Studying\A_SPRING2019-PRM391\Demo\FirstPhoneGapDemo\FirstPhoneGap\platforms\android\app\src\main\AndroidManifest.xml:28:24-74

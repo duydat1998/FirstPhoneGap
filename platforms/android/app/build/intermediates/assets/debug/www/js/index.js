@@ -29,6 +29,9 @@ var app = {
     onDeviceReady: function() {
         alert("PhoneGap Loaded");
         checkConnection();
+        showDeviceInformation();
+        pictureSource = navigator.camera.PictureSourceType;
+        destinationType = navigator.camera.DestinationType;
         this.receivedEvent('deviceready');
     },
 
@@ -47,13 +50,19 @@ var app = {
 
 app.initialize();
 
+var pictureSource,   destinationType;
+
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelector('#linkShowAlert').addEventListener('click', showAlert);
   document.querySelector('#linkShowConfirm').addEventListener('click', showConfirm);
   document.querySelector('#linkPlayBeep').addEventListener('click', playBeep);
   document.querySelector('#linkVibrate').addEventListener('click', vibrate);
-
+  document.querySelector('#btnCapturePhoto').addEventListener('click', capturePhoto);
+  document.querySelector('#btnCaptureEditPhoto').addEventListener('click', captureEditablePhoto);
+  document.querySelector('#btnFromLibrary').addEventListener('click', getPhoto(pictureSourceType.PHOTOLIBRARY));
+  document.querySelector('#btnFromAlbum').addEventListener('click', getPhoto(pictureSourceType.SAVEDPHOTOALBUM));
 });
+
     function checkConnection(){
          var networkState = navigator.connection.type;
 
@@ -68,6 +77,15 @@ document.addEventListener('DOMContentLoaded', function () {
             states[Connection.NONE]     = 'No network connection';
 
             alert('Connection type: ' + states[networkState]);
+    }
+
+    function showDeviceInformation(){
+        var element = document.getElementById("deviceProperties");
+        element.innerHTML = "Device Name: "+device.name +"<br/>" +
+                            "Device Cordova: "+device.cordova +"<br/>" +
+                            "Device Platform: "+device.platform +"<br/>" +
+                            "Device UUID: "+device.uuid +"<br/>" +
+                            "Device Version: "+device.version +"<br/>";
     }
     function showAlert(){
             alert("Alert sample");
@@ -90,11 +108,52 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         function playBeep(){
-            navigator.notification.beep(3);
+            navigator.notification.beep(1);
             return false;
         }
 
         function vibrate(){
-            navigator.notification.vibrate(2000);
+            navigator.notification.vibrate(1000);
             return false;
+        }
+
+        function onPhotoDataSuccess(imageData){
+            var smallImage = document.getElementById("smallImage");
+            smallImage.style.display ="block";
+            smallImage.src ="data:image/jpeg;base64,"+imageData;
+        }
+
+        function onPhotoURISuccess(imageURI){
+            var largeImage = document.getElementById("largeImage");
+            largeImage.style.display ="block";
+            largeImage.src = imageURI;
+            alert("Success: " + imageURI);
+        }
+
+        function capturePhoto(){
+            navigator.camera.getPicture(onPhotoDataSuccess, onPhotoFail,
+            {
+                quality: 50,
+                destinationType : destinationType.DATA_URL
+            });
+        }
+
+        function captureEditablePhoto(){
+            navigator.camera.getPicture(onPhotoURISuccess, onPhotoFail,
+            {
+                quality: 50, allowEdit: true,
+                destinationType : destinationType.DATA_URL,
+            });
+        }
+
+        function getPhoto(source){
+            navigator.camera.getPicture(onPhotoURISuccess, onPhotoFail,
+            {
+                quality: 50,
+                destinationType: destinationType.FILE_URI,
+                sourceType: source
+            });
+        }
+        function onPhotoFail(message){
+            alert("Photo Failed because: "+message);
         }

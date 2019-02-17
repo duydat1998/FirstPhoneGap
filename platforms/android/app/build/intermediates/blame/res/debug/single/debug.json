@@ -12,6 +12,10 @@
         "source": "D:\\Studying\\A_SPRING2019-PRM391\\Demo\\FirstPhoneGapDemo\\FirstPhoneGap\\platforms\\android\\app\\src\\main\\res\\drawable-land-mdpi\\screen.png"
     },
     {
+        "merged": "D:\\Studying\\A_SPRING2019-PRM391\\Demo\\FirstPhoneGapDemo\\FirstPhoneGap\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_camera_provider_paths.xml.flat",
+        "source": "D:\\Studying\\A_SPRING2019-PRM391\\Demo\\FirstPhoneGapDemo\\FirstPhoneGap\\platforms\\android\\app\\src\\main\\res\\xml\\camera_provider_paths.xml"
+    },
+    {
         "merged": "D:\\Studying\\A_SPRING2019-PRM391\\Demo\\FirstPhoneGapDemo\\FirstPhoneGap\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon.png.flat",
         "source": "D:\\Studying\\A_SPRING2019-PRM391\\Demo\\FirstPhoneGapDemo\\FirstPhoneGap\\platforms\\android\\app\\src\\main\\res\\mipmap-xhdpi\\icon.png"
     },

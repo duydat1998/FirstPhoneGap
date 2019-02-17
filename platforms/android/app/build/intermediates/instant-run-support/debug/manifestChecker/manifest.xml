@@ -56,6 +56,15 @@
         </activity>
 
         <provider
+            android:name="org.apache.cordova.camera.FileProvider"
+            android:authorities="sample.phonegap.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/camera_provider_paths" />
+        </provider>
+        <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="sample.phonegap.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />
